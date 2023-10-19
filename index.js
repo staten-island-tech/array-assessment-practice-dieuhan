@@ -84,6 +84,10 @@ const titles = [
   "Little Women",
 ];
 
+//books.forEach((books) => console.log(books.authorFirst, books.authorLast, "wrote", books.name, "in", books.publishDate)); 
+
+books.sort((books) => console.log(books.publishDate));
+
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
 
