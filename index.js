@@ -86,7 +86,20 @@ const titles = [
 
 //books.forEach((books) => console.log(books.authorFirst, books.authorLast, "wrote", books.name, "in", books.publishDate)); 
 
-books.sort((books) => console.log(books.publishDate));
+//const datesoldnew = [];
+
+//const bookdates = books.forEach((books) => datesoldnew.push(books.publishDate));
+//console.log(datesoldnew.sort()); 
+
+//const sorted = titles.sort((a,b) => a.localeCompare(b));
+//console.log(sorted);
+
+//function War(author){ return author.authorFirst === "Leo"; }
+//console.log(books.find(War));
+
+const result = books.filter((books.publishDate) , (books.publishDate < 1900));
+console.log(result);
+
 
 //Array of authors and the book they wrote
 //"--- wrote --- in ---"
