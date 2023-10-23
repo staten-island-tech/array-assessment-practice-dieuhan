@@ -97,7 +97,7 @@ const titles = [
 //function War(author){ return author.authorFirst === "Leo"; }
 //console.log(books.find(War));
 
-const result = books.filter((books.publishDate) , (books.publishDate < 1900));
+const result = books.filter((books.publishDate)  (books.publishDate < 1900));
 console.log(result);
 
 
