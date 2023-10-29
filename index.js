@@ -97,8 +97,7 @@ const titles = [
 //function War(author){ return author.authorFirst === "Leo"; }
 //console.log(books.find(War));
 
-const result = books.filter((books.publishDate)  (books.publishDate < 1900));
-console.log(result);
+books.forEach((books) => console.log(books.titles));
 
 
 //Array of authors and the book they wrote
