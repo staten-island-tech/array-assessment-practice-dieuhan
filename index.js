@@ -101,11 +101,14 @@ books
   console.log(books.authorFirst, books.authorLast);
 }); */
 
-console.log();
+/* console.log();
 books
 .filter((books)=> books.publishDate <1900)
 .forEach((books) => {console.log(books.name);
 });
+*/
+
+
 
 
 //Array of authors and the book they wrote
